@@ -1,0 +1,273 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -1,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": 431,
+    "database": 4,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "relationshipOptimization": false,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "ignoreSaveSettings": 0
+  },
+  "doc": {
+    "tableIds": [
+      "QAbLd6zAHWCYXieggiW-C",
+      "w_I06YZ8yr2YRlAZbSi8z",
+      "dSI2bxOt0rGxcCtOuqGG4",
+      "jHpUZgwdRTJqNUVPjFkoo",
+      "LR8VDz7oEd3-Al3UmUKaW",
+      "_eCRJ25wyLk2Wn6ysupa8"
+    ],
+    "relationshipIds": [],
+    "indexIds": [],
+    "memoIds": []
+  },
+  "collections": {
+    "tableEntities": {
+      "QAbLd6zAHWCYXieggiW-C": {
+        "id": "QAbLd6zAHWCYXieggiW-C",
+        "name": "등급",
+        "comment": "좋은놈 나쁜놈",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 91,
+          "y": 166,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 68,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120682770,
+          "createAt": 1731119269726
+        }
+      },
+      "7X_UgemUCH4C5vMXzkDWY": {
+        "id": "7X_UgemUCH4C5vMXzkDWY",
+        "name": "조회수 집계",
+        "comment": "통계성 데이터",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 517,
+          "y": 59,
+          "zIndex": 3,
+          "widthName": 60,
+          "widthComment": 68,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120348060,
+          "createAt": 1731119270821
+        }
+      },
+      "w_I06YZ8yr2YRlAZbSi8z": {
+        "id": "w_I06YZ8yr2YRlAZbSi8z",
+        "name": "좋아요(pulse) 집계",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 502,
+          "y": 427,
+          "zIndex": 24,
+          "widthName": 97,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120497272,
+          "createAt": 1731120048199
+        }
+      },
+      "dSI2bxOt0rGxcCtOuqGG4": {
+        "id": "dSI2bxOt0rGxcCtOuqGG4",
+        "name": "공유 집계",
+        "comment": "공유 횟수 집계",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 108,
+          "y": 426,
+          "zIndex": 43,
+          "widthName": 60,
+          "widthComment": 71,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120482395,
+          "createAt": 1731120198618
+        }
+      },
+      "jHpUZgwdRTJqNUVPjFkoo": {
+        "id": "jHpUZgwdRTJqNUVPjFkoo",
+        "name": "댓글수 집계",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 104,
+          "y": 516,
+          "zIndex": 60,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120535363,
+          "createAt": 1731120247431
+        }
+      },
+      "LR8VDz7oEd3-Al3UmUKaW": {
+        "id": "LR8VDz7oEd3-Al3UmUKaW",
+        "name": "인용수 집계",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 509,
+          "y": 516,
+          "zIndex": 65,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120498644,
+          "createAt": 1731120261438
+        }
+      },
+      "_eCRJ25wyLk2Wn6ysupa8": {
+        "id": "_eCRJ25wyLk2Wn6ysupa8",
+        "name": "포인트",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 106,
+          "y": 339,
+          "zIndex": 85,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120537968,
+          "createAt": 1731120453943
+        }
+      },
+      "FwpUIeJ8uoOFOvnfAz98D": {
+        "id": "FwpUIeJ8uoOFOvnfAz98D",
+        "name": "",
+        "comment": "",
+        "columnIds": [],
+        "seqColumnIds": [],
+        "ui": {
+          "x": 568,
+          "y": 289,
+          "zIndex": 119,
+          "widthName": 60,
+          "widthComment": 60,
+          "color": ""
+        },
+        "meta": {
+          "updateAt": 1731120545648,
+          "createAt": 1731120544111
+        }
+      }
+    },
+    "tableColumnEntities": {},
+    "relationshipEntities": {},
+    "indexEntities": {},
+    "indexColumnEntities": {},
+    "memoEntities": {}
+  },
+  "lww": {
+    "QAbLd6zAHWCYXieggiW-C": [
+      "tableEntities",
+      1731119269723,
+      -1,
+      {
+        "name": 1731119283311,
+        "comment": 1731119288005
+      }
+    ],
+    "7X_UgemUCH4C5vMXzkDWY": [
+      "tableEntities",
+      1731119270820,
+      1731120365743,
+      {
+        "name": 1731120296348,
+        "comment": 1731120036873
+      }
+    ],
+    "w_I06YZ8yr2YRlAZbSi8z": [
+      "tableEntities",
+      1731120048198,
+      -1,
+      {
+        "name": 1731120290869
+      }
+    ],
+    "dSI2bxOt0rGxcCtOuqGG4": [
+      "tableEntities",
+      1731120198617,
+      -1,
+      {
+        "name": 1731120237184,
+        "comment": 1731120245233
+      }
+    ],
+    "jHpUZgwdRTJqNUVPjFkoo": [
+      "tableEntities",
+      1731120247430,
+      -1,
+      {
+        "name": 1731120257707
+      }
+    ],
+    "LR8VDz7oEd3-Al3UmUKaW": [
+      "tableEntities",
+      1731120261437,
+      -1,
+      {
+        "name": 1731120494624
+      }
+    ],
+    "_eCRJ25wyLk2Wn6ysupa8": [
+      "tableEntities",
+      1731120453942,
+      -1,
+      {
+        "name": 1731120457254
+      }
+    ],
+    "FwpUIeJ8uoOFOvnfAz98D": [
+      "tableEntities",
+      1731120544109,
+      1731120632470,
+      {}
+    ]
+  }
+}
